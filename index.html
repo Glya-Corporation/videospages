@@ -26,7 +26,11 @@
 </head>
 <body>
 <div id="cabecera">
- <!—El código del vídeo iría aquí-->
+ <video id="video" loop autoplay preload muted>
+<source src="video.mp4" type='video/mp4; codecs="avc1,mp4a"' />
+<source src="video.ogg" type='video/ogg; codecs="theora,vorbis"' />
+<source src="video.webm" type='video/webm; codecs="vp8,vorbis"' />
+</video>
 <h2>El texto lo podríamos poner en esta línea</h2>
 </div>
 <h4>El resto del texto de la Web podríamos escribirlo aquí</h4>
